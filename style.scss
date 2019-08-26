@@ -1,0 +1,30 @@
+.email-auto-complete {
+  display: flex;
+  flex-direction: column;
+}
+
+.email-auto-complete__dropdown {
+  display: block;
+  position: relative;
+}
+
+.dropdown {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.dropdown__item {
+  display: block;
+  cursor: pointer;
+}
+
+.dropdown__item:hover {
+  background-color: #f0f0f0;
+}
+
+.dropdown__item:focus {
+  background-color: #EEEEEE;
+}
